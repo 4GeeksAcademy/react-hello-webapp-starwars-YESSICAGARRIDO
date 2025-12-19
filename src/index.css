@@ -1,0 +1,188 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    background-image: url('https://static.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: auto;
+
+}
+
+.people-home-container {
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+
+
+    min-height: 80dvh;
+    background-image: url('https://ew.com/thmb/qeJjQEgbFJCsTYR4KaaHUB6fgnc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EW_StarWars_100-1-3e44e87aa604405eac533ba3b8cc85c2.jpg');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc;
+
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+
+
+}
+
+.planets-home-container {
+
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    min-height: 80dvh;
+    background-image: url('https://sm.ign.com/t/ign_latam/screenshot/default/deathstar_6sce.1280.jpg');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc
+}
+
+.vehicles-home-container {
+
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    min-height: 80dvh;
+    background-image: url('https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2015/12/17/1331765972884_2/los-vehiculos-star-wars-que-te-gustaria-ver-en-el-dakar');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc
+}
+
+
+/* 
+.card {
+    background-color: #ddd;
+    width: 30px;
+    min-height: 25px;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+
+
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    margin: 10px 10px;
+
+
+} */
+
+
+
+.card-descripcion {
+    min-width: 40dvb;
+    min-height: 5dvb;
+    
+}
+
+.body-people {
+    padding: 15px;
+
+    min-height: 80dvh;
+    background-image: url('https://ew.com/thmb/qeJjQEgbFJCsTYR4KaaHUB6fgnc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/EW_StarWars_100-1-3e44e87aa604405eac533ba3b8cc85c2.jpg');
+    filter: blur();
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.body-planets {
+
+
+
+     padding: 15px;
+
+    min-height: 80dvh;
+    background-image: url('https://sm.ign.com/t/ign_latam/screenshot/default/deathstar_6sce.1280.jpg');
+    filter: blur();
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    /* padding: 20px;
+
+    align-items: center;
+    min-height: 80dvh;
+    background-image: url('https://sm.ign.com/t/ign_latam/screenshot/default/deathstar_6sce.1280.jpg');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.body-vehicles {
+
+     padding: 15px;
+
+    min-height: 80dvh;
+    background-image: url('https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2015/12/17/1331765972884_2/los-vehiculos-star-wars-que-te-gustaria-ver-en-el-dakar');
+    filter: blur();
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.card-descripcion-container {
+
+    padding: 20px;
+
+    align-items: center;
+    min-height: 80dvh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card-descriplanets-container{
+     padding: 20px;
+
+    align-items: center;
+    min-height: 80dvh;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg');
+    filter: blur();
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-block-end: 10px solid #cccc;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
